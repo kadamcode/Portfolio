@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
 }
@@ -59,7 +59,7 @@ span{
 }
 infocontainer{
     /* background-color: rgb(0, 255, 42); */
-    height:58vh;
+    /*height:58vh;
     width:80vw;
     margin:144px auto;
     display: flex;
@@ -149,4 +149,163 @@ button:hover{
 ol li {
     margin-left: 125px;
     padding:5px;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0,0,33);
+    color:white;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:80px;
+    background-color:rgb(5, 5, 51) ;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin:0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white
+}
+nav ul li a:hover{
+    color:rgb(72, 72, 220);
+    text-decoration: underline;
+}
+.left{
+    font-size:22px;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Source Code Pro',monospace;
+    font-size: 33px;
+}
+.firstsection > div{
+    width: 30%;
+}
+.leftsection{
+    font-size:2rem;
+    margin: 30px;
+}
+.rightsection img{
+    width: 80%;
+    margin: 50px 0;
+
+}
+span{
+    color:rgb(157, 83, 227);
+}
+.element
+{
+    color:rgb(157, 83, 227);
+}
+infocontainer{
+    /* background-color: rgb(0, 255, 42); */
+    height:58vh;
+    width:80vw;
+    margin:144px auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 88px;
+}
+.intro h2{
+    font-family: 'fira sans',sans-serif;
+    margin: 12px;
+    font-size: 33px;
+}
+.intro p {
+    font-family: 'Source Code Pro',monospace;
+    font-size: 33px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillItem{
+    display:flex;
+    align-items: center;
+    font-family: 'Source Code Pro',monospace;
+    font-weight: 900;
+    font-size: 22px;
+ }
+.skill{
+    width: 265px;
+    height:8px;
+    background-color: brown;
+}
+.hundred{
+    width:265;
+    background-color: blueviolet;
+}
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+.four{
+    width:90px;
+    background-color: yellow;
+
+}
+.contactform{
+    font-family: 'fira sans',sans-serif;
+    padding-top: 14px;
+     padding-left: 14px;
+     margin:0 88px;
+}  
+form div{
+    margin:5px;
+    padding:20px;
+}
+.contactform form div input{
+    width:30vw;
+    border-radius: 5px;
+    margin:6px 0;
+    padding: 2px;
+}
+.contactform h2{
+    font-family: 'Source Code Pro',monospace;
+    padding-bottom: 12px;
+    font-size: 33px;
+}
+button{
+    margin-left:25px;
+    margin-top: -5px;
+    padding:5px;
+    background-color: rgb(70, 70, 201);
+    color:white;
+    border-radius: 5px;
+    transition-duration:1s ;
+}
+button:hover{
+    background-color:white ;
+    color:rgb(70,70,200);
+    border-radius: 25px;
+}
+.project{
+    margin:25px;
+}
+.project p {
+    margin: 25px;
+    font-size: 33px;
+    font-family: 'Source Code Pro',monospace;
+}
+ol li {
+    margin-left: 125px;
+    padding:5px;
+    font-family: 'Source Code Pro',monospace;
 }
